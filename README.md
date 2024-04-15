@@ -117,9 +117,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/joebaarath/ai_project2024.git
 
-
-### Setting Up  Web App GUI
-
 ## Web Flask GUI Setup
 
 Follow these steps to set up the Flask web application for stance detection:
