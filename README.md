@@ -112,7 +112,7 @@ We utilize different architectures to process text data through neural networks 
 - **Multilayer Perceptron**
 - **Best Model Checkpoint**
 
-### Installation
+### Installation of Web Gui
 Clone the repository:
 ```bash
 git clone https://github.com/joebaarath/ai_project2024.git
@@ -125,13 +125,15 @@ Follow these steps to set up the Flask web application for stance detection:
 python -m venv venv
 
 2) Activate the environment:
-python/web/host
+.\venv\Scripts\activate
 
-3) Install the required packages:
+3) Redicting  new stances from wthe web.
 python -m venv venv
 
-4) Upload fake news csv (i.e. lemmatized_dataset_final_balanced_test.csv )
+4) .\venv\Scripts\activate csv (i.e. lemmatized_dataset_final_balanced_test.csv )
 
 5) Run the Flask web application:
+
+
 
 
