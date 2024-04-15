@@ -142,7 +142,7 @@ python app.py
 3) Get prediction csv file
 
 ```
-
+<a id="web-gui"></a>
 #### 1) Ensure flask web app is running
 <p align="center">
   <img src="https://github.com/joebaarath/ai_project2024/assets/29447484/57846674-acd6-4447-9228-d3fd0f0b4480" alt="Ensure Flask web app is running">
