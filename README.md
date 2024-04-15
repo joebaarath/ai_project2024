@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The spread of misinformation on social media is a significant problem, addressed by the Fake News Challenge (FNC-1) through the use of artificial intelligence, including machine learning and natural language processing. A key part of this challenge is Stance Detection, which examines how the body of a news article aligns with its headline. This technique checks if the article supports, contradicts, or is unrelated to the headline, aiding in the identification of potentially false news.
+The spread of misinformation on social media is a significant problem. The Fake News Challenge (FNC-1), set out the challenge to use machine learning concepts to classify Stances on whether the Headlines, align with the Article content.  This technique checks if the article supports, contradicts, or is unrelated to the headline, aiding in the identification of potentially fake news.
 
 Our project delves into this problem by leveraging the FNC-1 dataset, exploring several classification models to discern the stance of news articles. These models fall under three primary approaches: 
 
@@ -23,15 +23,12 @@ Stance Detection is a nuanced task that involves classifying the relationship be
 Understanding and accurately classifying these relationships is crucial for automating the identification of fake news.
 
 ## Methodology
-Our methodology is centered around classifying the stance of the body text relative to the headline into the aforementioned categories, employing three distinct approaches, each elaborated within the Models Section.
+Our methodology focuses on classifying the stance of the body text in relation to the headline into the specified categories. We employ three distinct approaches, which are detailed in the Models Section.
 
 ## Dataset Description and Scoring Metrics
-The dataset consists of 1,648 distinct headlines and 1,683 distinct articles, contributing to a total of 49,972 headline-article pairings. Given the disproportionate bias towards unrelated pairs within the dataset, the FNC-1 challenge introduced a weighted accuracy score to supplement traditional F-1 metrics, which we also adopt to evaluate our models.
-
+The dataset consists of 1,648 distinct headlines and 1,683 distinct articles, contributing to a total of 49,972 headline-article pairings. Given the disproportionate bias towards unrelated pairs within the dataset, the FNC-1 challenge introduced a weighted accuracy score to supplement traditional F-1 metrics, which we also adopted to evaluate our models.
 
 ## Folder Structure
-Here's how the project repository is organized:
-
 - **01_dataset/**: Contains the preprocessed datasets used in this project, including training, validation, and test sets. Subfolder also contains original dataset.
 - **02_preprocessing/**: Scripts and notebooks for data cleaning and preparation. This includes text normalization, tokenization, and vectorization.
 - **03_models/**: Jupyter notebooks for each model used in the approaches described below. 
@@ -42,7 +39,6 @@ Here's how the project repository is organized:
 - `Body_ID` - A unique identifier for the body text.
 - `Stance` - The stance of the body text relative to the headline, categorized as `Agree`, `Disagree`, `Discuss`, or `Unrelated`.
 - `ArticleBody` - The body text of the article.
-
 
 ## Models
 
@@ -112,27 +108,40 @@ We utilize different architectures to process text data through neural networks 
 - **Multilayer Perceptron**
 - **Best Model Checkpoint**
 
-### Installation of Web Gui
-Clone the repository:
+### Download Source Code
 ```bash
 git clone https://github.com/joebaarath/ai_project2024.git
+```
 
-## Web Flask GUI Setup
-
+### Web Flask GUI Setup
+*Web Flask GUI Setup for Fake News Stance Detection*
 Follow these steps to set up the Flask web application for stance detection:
 
+```bash
 1) Create a new virtual environment:
 python -m venv venv
 
 2) Activate the environment:
 .\venv\Scripts\activate
 
-3) Redicting  new stances from wthe web.
-python -m venv venv
+3) Install requirements
+pip install -r requirements.txt 
 
-4) .\venv\Scripts\activate csv (i.e. lemmatized_dataset_final_balanced_test.csv )
+4) Run flask web app
+python app.py
 
-5) Run the Flask web application:
+```
+
+
+### Web GUI usage: Predicting new stances from the web
+```bash
+1) Upload fake news csv (i.e. lemmatized_dataset_final_balanced_test.csv ) to web
+
+2) Click Submit Button
+
+3) Get prediction csv file
+
+```
 
 
 
