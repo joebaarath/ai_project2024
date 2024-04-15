@@ -143,21 +143,22 @@ python app.py
 
 ```
 
-### Web GUI usage example
 #### 1) Ensure flask web app is running
-![image](https://github.com/joebaarath/ai_project2024/assets/29447484/57846674-acd6-4447-9228-d3fd0f0b4480)
+<p align="center">
+  <img src="https://github.com/joebaarath/ai_project2024/assets/29447484/57846674-acd6-4447-9228-d3fd0f0b4480" alt="Ensure Flask web app is running">
+</p>
 
 #### 2) Choose a real or fake news CSV file to upload that has Headline and BodyID, articleBody
-![image](https://github.com/joebaarath/ai_project2024/assets/29447484/ffc860c2-c12a-47a8-aa38-e5915e44ef07)
+<p align="center">
+  <img src="https://github.com/joebaarath/ai_project2024/assets/29447484/ffc860c2-c12a-47a8-aa38-e5915e44ef07" alt="Choose CSV file to upload">
+</p>
 
 #### 3) Submit this csv file 
-![image](https://github.com/joebaarath/ai_project2024/assets/29447484/78046382-4cb3-45be-bef9-f33e26d0b7db)
-
+<p align="center">
+  <img src="https://github.com/joebaarath/ai_project2024/assets/29447484/78046382-4cb3-45be-bef9-f33e26d0b7db" alt="Submit CSV file">
+</p>
 
 #### 4) Download the exported predictions csv file
-![image](https://github.com/joebaarath/ai_project2024/assets/29447484/a073e575-17f4-4cd8-ac1e-d0656b84133e)
-
-
-
-
-
+<p align="center">
+  <img src="https://github.com/joebaarath/ai_project2024/assets/29447484/a073e575-17f4-4cd8-ac1e-d0656b84133e" alt="Download predictions CSV">
+</p>
