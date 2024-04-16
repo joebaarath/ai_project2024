@@ -154,6 +154,8 @@ The best-performing model (`MLP_best_model.ipynb`) in our evaluations yielded th
 
 These metrics indicate the model's ability to accurately and consistently classify news stances across different categories, providing robust and reliable performance in our stance detection tasks.
 
+## Project Setup and Usage
+
 ### Download Source Code
 ```bash
 git clone https://github.com/joebaarath/ai_project2024.git
