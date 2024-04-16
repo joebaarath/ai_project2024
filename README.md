@@ -1,5 +1,14 @@
 # Fake News Stance Detection
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Stance Detection](#stance-detection)
+- [Methodology](#methodology)
+- [Dataset Description and Scoring Metrics](#dataset-description-and-scoring-metrics)
+- [Models](#models)
+- [Best Model Performance](#best-model-performance-multilayer-perceptron)
+- [Project Setup and Usage](#project-setup-and-usage)
+
 ## Project Overview
 
 The spread of misinformation on social media is a significant problem. The Fake News Challenge (FNC-1), set out the challenge to use machine learning concepts to classify Stances on whether the Headlines, align with the Article content.  This technique checks if the article supports, contradicts, or is unrelated to the headline, aiding in the identification of potentially fake news.
@@ -12,7 +21,7 @@ Our project delves into this problem by leveraging the FNC-1 dataset, exploring 
 
 Our aim is to maximize the fnc-1 score and class-wise F-1 scores while optimizing for training efficiency. This report outlines our exploration into these approaches and presents a system that achieves competitive performance with state-of-the-art architectures, with further research needed to validate its efficacy under varying conditions.
 
-## Stance Detection and Its Implications
+## Stance Detection
 Stance Detection is a nuanced task that involves classifying the relationship between a headline and the body text of news articles into four categories:
 
 - **Agrees:** The body text is in agreement with the headline.
