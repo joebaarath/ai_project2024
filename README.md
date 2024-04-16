@@ -77,12 +77,14 @@ We utilize different architectures to process text data through neural networks 
   - **Decision Tree**
   - **Logistic Regression**
 
-##### 2. **XGBoost Models**
+##### 2. Inspiration from Winning Features **XGBoost Models** 
 - **Standard XGBoost** (`Xgboost-model`)
 - **XGBoost Stacked with Naïve Bayes** (`XGBoost-model-stack-naïve-bayes`)
 
 ##### 3. **LightGBM Models**
 - **LightGBM Stacked with Naïve Bayes** (`LightGBM-model-stack-naïve-bayes`)
+
+Stacking Models Using Baseline Features are in Approach 3 Folder
 
 #### Approach 3: Hybrid Model (Combination of Approaches 1 and 2)
 ##### 1. **Hybrid CNN + Bi-LSTM** (`hybrid_cnn_bilstm_concat.ipynb`)
@@ -93,11 +95,20 @@ We utilize different architectures to process text data through neural networks 
 - **TF-IDF Vectoriser**
 - **MLP**
 
-##### 3. **Stacking Models with Polarity Features** (`Stacking-polarity.ipynb`)
-- **TF-IDF with WordNet**
+##### 3. **Stacking Models with Polarity, Refute, TF-IDF and Hand Features** (`Stacking-polarity.ipynb`)
+- **TF-IDF**
 - **MLP**
+- **Random Forest Model** (Approach 2)
+- **Naive Bayes Model** (Approach 2)
 
-##### 4. **Improved TF-IDF Vectoriser** (`tf-idf-vectoriser-bug-removed.ipynb`)
+##### 4. **Stacking Models with Hand and TF-IDF Features** (`Stacking-hand-2.ipynb`)
+- **TF-IDF**
+- **MLP**
+- **Random Forest Model** (Approach 2)
+- **Naive Bayes Model** (Approach 2)
+
+##### 5. **Improved TF-IDF Vectoriser** (`tf-idf-vectoriser-bug-removed.ipynb`)
+This contains 
 - **MLP**
 - **LSTM**
 - **BiLSTM**
