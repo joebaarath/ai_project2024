@@ -80,6 +80,7 @@ We utilize different architectures to process text data through neural networks 
 ##### 2. Inspiration from Winning Features **XGBoost Models** 
 - **Standard XGBoost** (`Xgboost-model`)
 - **XGBoost Stacked with Naïve Bayes** (`XGBoost-model-stack-naïve-bayes`)
+- **Individual Boosted Features** (`individual-feature-eng-w-xgboost-models-latest (1).ipynb`)
 
 ##### 3. **LightGBM Models**
 - **LightGBM Stacked with Naïve Bayes** (`LightGBM-model-stack-naïve-bayes`)
