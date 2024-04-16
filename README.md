@@ -120,6 +120,40 @@ This contains
 - **Multilayer Perceptron**
 - **Best Model Checkpoint**
 
+## Best Model Performance: Multilayer Perceptron
+
+The best-performing model (`MLP_best_model.ipynb`) in our evaluations yielded the following results across different classes and overall metrics:
+
+### Class-wise Performance
+- **Class 0** ("Agree")
+  - Precision: 0.909
+  - Recall: 0.948
+  - F1-score: 0.928
+
+- **Class 1** ("Disagree")
+  - Precision: 0.833
+  - Recall: 0.714
+  - F1-score: 0.769
+
+- **Class 2** ("Unrelated")
+  - Precision: 0.983
+  - Recall: 0.967
+  - F1-score: 0.975
+
+- **Class 3** ("Discuss")
+  - Precision: 0.988
+  - Recall: 0.996
+  - F1-score: 0.992
+
+### Overall Metrics
+- **Accuracy**: 0.971
+- **Macro Precision**: 0.928
+- **Macro Recall**: 0.906
+- **Macro F1 Score**: 0.916
+- **Custom Score (FNC-1 Evaluation)**: 2287
+
+These metrics indicate the model's ability to accurately and consistently classify news stances across different categories, providing robust and reliable performance in our stance detection tasks.
+
 ### Download Source Code
 ```bash
 git clone https://github.com/joebaarath/ai_project2024.git
